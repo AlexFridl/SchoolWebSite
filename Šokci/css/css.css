@@ -1,0 +1,460 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+font-family:Cambria, Arial;
+}
+.cisti{
+clear:both;
+}
+.sajt{
+background-color: #EFE4B0;
+}
+.omot{
+width:1000px;
+height:1150px;
+margin:0 auto;
+}
+.omot4{
+width:1000px;
+height:1250px;
+margin:0 auto;
+}
+.omot3{
+width:1000px;
+height:1050px;
+margin:0 auto;
+}
+.omot2{
+width:1000px;
+height:1700px;
+margin:0 auto;
+}
+.header{
+width:1000px;
+height:220px;
+border:1px solid #000;
+}
+.slikaheader{
+width:1000px;
+height:220px;
+margin: 0px auto;
+background-image:url(../slike/pozadina.png);
+}
+.logo {
+width:120px;
+height:188px;
+padding:15px 0px 0px 100px;
+float:left;
+}
+.headerh1{
+width:330px;
+height:40px;
+margin:110px 0px 0px 130px;
+padding:10px;
+color:#800000/* #FFC125 */;
+background:#EFE4B0;
+float:left;
+border-radius:5px;
+}
+.naslov{
+padding:30px 10px 5px 50px;
+font-size:20px;
+font-weight:bold;
+font-style:Cambria;
+float:left;
+}
+.navigacijapretraga{
+width:1000px;
+height:50px;
+border: 1px solid #000;
+/* border-right:1px solid #000;
+border-bottom:1px solid #000; */
+background-color:#FFC125;
+
+}
+.navigacija{
+width:600px;
+height:50px;
+float:left;
+
+}
+.navigacija ul{
+width:670px;
+height:35px;
+padding:15px 0px 0px 100px;
+list-style:none;
+font-weight:bold;
+
+}
+.navigacija li{
+display:inline;
+padding:5px 30px 5px 30px;
+color:#800000;
+}
+.navigacija a{
+list-style:none;
+}
+.pretraga{
+float:right;
+width:230px;
+height:35px;
+padding: 10px 30px 0px 30px;
+}
+.sredina{
+width:1000px;
+height:800px;
+border-left:1px solid #000;
+border-right:1px solid #000;
+border-bottom:1px solid #000;
+background-color:#FFC125;
+}
+.sredina3{
+width:1000px;
+height:700px;
+border-left:1px solid #000;
+border-right:1px solid #000;
+border-bottom:1px solid #000;
+background-color:#FFC125;
+}
+.sredina4{
+width:1000px;
+height:900px;
+border-left:1px solid #000;
+border-right:1px solid #000;
+border-bottom:1px solid #000;
+background-color:#FFC125;
+}
+
+.sredina2{
+width:1000px;
+height:1350px;
+border-left:1px solid #000;
+border-right:1px solid #000;
+border-bottom:1px solid #000;
+background-color:#FFC125;
+}
+.textgore{
+width: 650px;
+height: 170px;
+padding:50px 25px 0px 25px;
+}
+.textgore2{
+width: 650px;
+height: 180px;
+padding:50px 25px 0px 25px;
+}
+.sara{
+background-image:url(../slike/0052.bmp);
+width: 650px;
+height:50px;
+margin: 20px 10px 20px 17px;
+border: 1px solid #FFC125;
+border-radius: 5px;
+}
+
+.sara2{
+background-image:url(../slike/00432.bmp);
+width: 650px;
+height:50px;
+margin: 20px 10px 20px 17px;
+border: 1px solid #FFC125;
+border-radius: 5px;
+}
+.sara3{
+background-image:url(../slike/0052.bmp);
+width: 650px;
+height:50px;
+margin: 30px 10px 20px -5px;
+border: 1px solid #FFC125;
+border-radius: 5px;
+}
+.sara4{
+background-image:url(../slike/0052.bmp);
+width: 650px;
+height:50px;
+margin: 20px 10px 20px -5px;
+border: 1px solid #FFC125;
+border-radius: 5px;
+}
+.textdole{
+width: 650px;
+height: 150px;
+padding:25px;
+}
+.textdole2{
+width: 650px;
+height: 170px;
+padding:25px;
+}
+.leva{
+width:277px;
+height:800px;
+border-right:1px solid #000;
+float:left;
+font-weight:bold;
+}
+.leva4{
+width:277px;
+height:900px;
+border-right:1px solid #000;
+float:left;
+font-weight:bold;
+}
+.leva3{
+width:277px;
+height:700px;
+border-right:1px solid #000;
+float:left;
+font-weight:bold;
+}
+.leva2{
+width:277px;
+height:1350px;
+border-right:1px solid #000;
+float:left;
+font-weight:bold;
+}
+.meni{
+width:245px;
+height:340px;
+margin:10px;
+padding:5px;
+border-radius:7px;
+border: 1px solid #000;
+background-color:#FFEC8B;
+}
+.meni ul{
+padding:25px 25px;
+font-family:Cambria;
+font-size:18px;
+list-style:none;
+}
+li {
+padding:10px;
+}
+a{
+text-decoration:none;
+color:#800000;
+}
+.registracija{
+width:195px;
+height:150px;
+margin:10px;
+padding:30px;
+color:#800000;
+
+border:1px solid #000;
+border-radius: 7px;
+background-color:#FFEC8B;
+}
+.desna{
+width:720px;
+height:800px;
+float:right;
+background-color:#FFEC8B;
+}
+.desna3{
+width:720px;
+height:700px;
+float:right;
+background-color:#FFEC8B;
+}
+.desna4{
+width:720px;
+height:900px;
+float:right;
+background-color:#FFEC8B;
+}
+.desna2{
+width:720px;
+height:1350px;
+float:right;
+background-color:#FFEC8B;
+}
+.footer{
+width:1000px;
+height:50px;
+border-bottom:1px solid #000;
+border-left:1px solid #000;
+border-right:1px solid #000;
+background-color:#FFC125;
+}
+.footer ul{
+width:650px;
+height:30px;
+padding:10px 0px 0px 20px;
+list-style:none;
+font-weight:bold;
+}
+.footer li{
+display:inline;
+padding:0px 15px 0px 15px;
+}
+.donjanavigacija{
+float:left;
+}
+.copyright{
+float:left;
+padding:10px 0px 0px 95px;
+}
+.dugme{
+padding: 3px;
+margin: 3px;
+border-radius: 5px;
+}
+.dugme2{
+padding: 3px;
+margin: 1px;
+border-radius: 5px;
+}
+.poljezaunos{
+padding:3px;
+margin: 1px;
+border-radius: 5px;
+}
+.sadrzaj{
+width:692px;
+height:770px;
+padding: 15px;
+}
+.sadrzaj2{
+width:692px;
+height:700px;
+padding: 15px;
+}
+.sadrzaj3{
+width:652px;
+height:700px;
+padding: 40px;
+}
+.sadrzaj3 h2{
+padding: 30px 25px 0px 0px;
+}
+.sadrzaj3 p{
+padding-top:20px;
+}
+.sadrzaj5{
+width:652px;
+height:800px;
+padding: 40px;
+}
+.sadrzaj5 h2{
+padding: 30px 25px 0px 0px;
+}
+.sadrzaj3 p{
+padding-top:20px;
+}
+.slikatext{
+float:left;
+border: 5px solid #EFE4B0;
+border-radius: 5px;
+margin:90px 0px 0px 15px;
+}
+.slikatext2{
+box-shadow: -10px -10px 5px 1px #888;
+float:left;
+border: 5px solid #000;
+border-radius: 5px;
+margin:50px 0px 0px 15px;
+}
+.textsredina{
+padding: 100px 15px 15px 15px;
+float:right;
+width: 350px;
+height:400px;
+}
+.textsredina2{
+padding: 0px 15px 15px 15px;
+float:right;
+width: 350px;
+height:400px;
+}
+.slikaleva{
+float:left;
+border: 5px solid #EFE4B0;
+border-radius: 5px;
+margin:15px;
+}
+.slikasredina{
+float:left;
+border: 5px solid #EFE4B0;
+border-radius: 5px;
+margin:15px;
+}
+.slikadesno{
+float:left;
+border: 5px solid #EFE4B0;
+border-radius: 5px;
+margin:15px;
+}
+.slikadanas{
+float: left;
+width:199px;
+height:350px;
+padding-top:15px;
+}
+.slikadanas2{
+float:right;
+width:399px;
+height:300px;
+padding-top:35px;
+padding-right:10px;
+}
+.fgore{
+width:350px;
+height:220px;
+margin:0px auto;
+padding:10px 0px;
+margin-top:10px;
+}
+.fdole{
+width:350px;
+height:180px;
+margin:0px auto;
+padding:10px 0px;
+margin-top:20px;
+}
+.dugme3{
+padding: 5px 10px 5px 10px;
+margin: 6px 10px 5px 10px;
+border-radius: 5px;
+float:left;
+
+}
+.dugme4{
+padding: 5px 10px 5px 10px;
+margin: 5px 10px;
+border-radius: 5px;
+float:left;
+}
+.sadrzaj4 {
+width:652px;
+height:700px;
+padding: 40px;
+
+}
+.sadrzaj4 h2{
+margin:0px auto;
+width:160px;
+padding:20px 0px;
+}
+table{
+padding:10px 25px; 
+}
+legend{
+margin:0px 0px 0px 50px;
+}
+.anketa{
+border: 1px solid #000;
+border-radius: 5px;
+width:450px;
+margin:0px auto;
+}
+.anketa h3{
+padding-top:10px;
+}
+.sadrzaj3 h4{
+padding-top:10px;
+}

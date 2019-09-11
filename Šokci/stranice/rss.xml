@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>O Sokcima</title>
+		<link>index.html</link>
+		<description>Sokci i njihova nosnja</description>
+		<item>
+			<title>Sokacka nosnja</title>
+			<link>sokacka_nosnja.html</link>
+			<description>Saznajte sve o sokackoj nosnji</description>
+		</item>
+		<item>
+			<title>sokci danas</title>
+			<link>sokci_danas.html</link>
+			<description>Saznaj te vise o sokcima danas</description>
+		</item>
+	</channel>
+</rss>
