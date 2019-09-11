@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Pčelarsko gazdinstvo Fridl</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="Keywords" content="pčelarstvo, domaćinstvo, pčelinjak, Fridl, košnice"/>
+		<meta name="Description" content="Porodično domaćinstvo Fridl čini pčelinjak od ukupno sedamdeset košnica. Pčelinjak se nalazi na teritoriji opštine Lazarevac."/>
+		<link rel="shortcut icon" href="../slike/logo1.png" type="image/x-icon"/>
+		<script type="text/javascript" src="../JavaScript/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="../JavaScript/dzej.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/stil.css"/>
+	</head>
+
+	<body onLoad="slajder()">
+		<div id="sajt3">
+		
+			<div id="omot">
+			
+				<div id="header">
+					<h1>Pčelarsko gazdinstvo Fridl</h1>
+					<div id="pretraga">
+						<input type="text" placeholder="Pretraga..." maxlength="45" id="tbPoljeUnos" name="tbPoljeUnos" size="15"/>
+						<input type="button" name="btPretraga" id="btPretraga" value="Pretraga" onClick="pretraga1()";/>
+					</div>	
+					<div id="slikaHeader">
+						<img class="slajder" name="slajder" src="../slike/slajder/3-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/8-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/7-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/10-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/9-1.jpg" alt="PčelinjakFridl"/>
+						
+					</div>
+					
+				</div>
+				<div id="meni">					
+					<div id="navigacija">
+						<ul>
+							<li><a href="../index.html">POČETNA</a></li>
+							<li><a href="#" onmouseover="otvori('pro');" onmouseout="vremeTrajanja();">PROIZVODI</a>
+								<div id="pro" onmouseover="vremePokazivanja();" onmouseout="vremeTrajanja();">
+									<a href="../stranice/bagrem.html">BAGREMOV MED</a>
+									<a href="../stranice/lipa.html">LIPOV MED</a>
+									<a href="../stranice/suncokret.html">SUNCOKRETOV MED</a>
+									<a href="../stranice/livada.html">LIVADSKI MED</a>		
+									<a href="../stranice/ostali.html">OSTALI PROIZVODI</a>
+									
+								</div>
+							</li>
+							<li><a href="../stranice/galerija.html">GALERIJA</a></li>
+							<li><a href="../stranice/kontakt.html">KONTAKT</a></li>
+							<li><a href="../stranice/autor.html">O AUTORU</a></li>	
+							<li id="prijaviSe"><a href="#"><b>PRIJAVI SE</b></a>
+							<form class="forma">
+								<table>
+									<tr>
+										<td>Korisničko ime: </td>
+									</tr>
+									<tr>
+										<td><input type="text" id="tbKorisnickoIme" name="tbKorisnickoIme" maxlength="20"/></td>
+									</tr>
+									<tr>
+										<td>Lozinka:</td>	
+									</tr>
+									<tr>
+										<td><input type="password" id="tbLozinka" name="tbLozinka" maxlength="20"/></td>
+										
+									</tr>
+									<tr>
+										<td><input type="submit" id="btPrijava" value="Prijava"/>
+											<a href="../stranice/registracija.html"><input type="button" id="btRegistracija" value="Registracija"/></a></td>
+									</tr>
+								</table>
+							</form></li>
+						</ul>									
+					</div>			
+				</div>
+			
+				<!--<div class="cisti"></div>-->
+				<div id="sredinaOmot3">
+					<div id="pretragaRezultat"></div>					
+						<div id="sredinaText">
+							<div class="sredinNaslov">
+								<h2>LIPOV MED</h2>
+							</div>
+							<div class="slikaLipa1">
+								<img src="../slike/2.jpg" alt="lipov_med" title="Lipov med"/>
+							</div>
+							<div class="sredinaPrica">
+								
+									<!--Osnovni proizvod svakog pčelara je pčelinji med. Ono što Fridl Ljudevit proizvodi su bagremov, lipov i suncokretov med.</br>-->
+																
+									
+									<p>Lipov med je zlatno žute boje. Specifičnog je mirisa i izrazito slatkog ukusa. Vremenom ovaj med se kristališe i dobija tamno žutu boju.</br></p>
+									<p>Lipov med ima izrazito antibakterijsko svojstvo. Zato se koristi u prevenciji i lečenju prehlade jer podstiče znojenje, kao i kod mnogih upalnih procesa, rana, opekotina, a takođe i kod različitih bolesti želuca, jetre, bubrega i creva.
+									Ovaj med je izrazito bogat magnezijumom, kalijumom, kalcijumom, cinkom, gvožđem, vitaminom E, niklom, hromom i fosforom. </br></p>
+									<p>Nikako se ne preporučuje osobama koje su na terapiji koja snižava krvni pritisak, terapiji za lečenje srčanih oboljenja, ili terapiji protiv tromboze, jer njegova konzumacija može povećati dejstvo lekova i 
+									time stvoriti nepoželjne efekte po organizam.</br>								
+									</p>
+							</div>
+							<div class="slikaLipa2">
+								<img src="../slike/lipa.jpg" alt="lipa" title="Lipa"/>
+							</div>
+							<!--<div class="sredinaSlika">
+								<img src="slike/4.jpg" alt="MojPcelinjak" title="MojPcelinjak"/>
+							</div>-->
+						</div>
+				</div>
+					
+				<div id="footer">
+					<div id="footerNavigacija">
+						<ul>
+							<li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+							<li><a href="sitemap.xml">Mapa sajta</a></li>						
+						</ul>					
+					</div>
+					<div id="rss">
+						<a href="rss.xml"><img src="../slike/rss.png" alt="iconRss"/></a>					
+					</div>
+					<div id="copyRight">
+						<p>Copyright&copy2016AleksandraFridl</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</body>
+</html>

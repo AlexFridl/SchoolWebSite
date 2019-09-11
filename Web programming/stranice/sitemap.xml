@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>1.00</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/index.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+		<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/bagrem.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/lipa.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/suncokret.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/livada.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+		<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/ostali.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/galerija.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/kontakt.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/autor.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>http://pcelarstvofridl.byethost10.com/stranice/registracija.html</loc>
+		<lastmod>2016-12-13T20:57:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+	</url>
+</urlset>

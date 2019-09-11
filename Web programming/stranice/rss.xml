@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+	<channel>
+		<title>Pčelarsko gazdinstvo Fridl</title>
+		<link>index.html</link>
+		<description>Postojanje pčelarskog gazdinstva Fridl</description>
+		<item>
+			<title>Pčelinjak Fridl</title>
+			<link>galerija.html</link>
+			<description>Slike sa pčelinjaka</description>
+		</item>
+		<item>
+			<title>Kontakt</title>
+			<link>kontakt.html</link>
+			<description>Kontakt pčelara Fridl Ljudevita</description>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<slike>
+	<slika>
+		<naziv>Pčelinjak</naziv>
+		<putanja>../slike/galerija/1.jpg</putanja>
+		<alt>pčelinjak</alt>		
+	</slika>
+	<slika>
+		<naziv>Kontejner za košnice</naziv>
+		<putanja>../slike/galerija/2.jpg</putanja>
+		<alt>kontejner_za_kosnice</alt>		
+	</slika>
+	<slika>
+		<naziv>Pčelinjak</naziv>
+		<putanja>../slike/galerija/3.jpg</putanja>
+		<alt>kontejner_za_kosnice</alt>		
+	</slika>
+	<slika>
+		<naziv>Kontejner za košnice u selidbi</naziv>
+		<putanja>../slike/galerija/4.jpg</putanja>
+		<alt>kontejner_za_košnice_u_selidbi</alt>		
+	</slika>
+	<slika>
+		<naziv>Pčelinjak</naziv>
+		<putanja>../slike/galerija/5.jpg</putanja>
+		<alt>pčelinjak</alt>		
+	</slika>
+	<slika>
+		<naziv>Kontejner za košnice u selidbi</naziv>
+		<putanja>../slike/galerija/6.jpg</putanja>
+		<alt>kontejner_za_košnice_u_selidbi</alt>		
+	</slika>
+	<slika>
+		<naziv>Kontejner za košnice</naziv>
+		<putanja>../slike/galerija/7.jpg</putanja>
+		<alt>kontejner_za_kosnice</alt>		
+	</slika>
+</slike>

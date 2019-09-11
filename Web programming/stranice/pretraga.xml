@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<strane>
+	<strana>
+		<srcc>index.html</srcc>
+		<ime>Porodično gazdinstvo Fridl</ime>
+	</strana>
+	<strana>
+		<srcc>bagrem.html</srcc>
+		<ime>Bagremov med</ime>
+	</strana>
+	<strana>
+		<srcc>lipa.html</srcc>
+		<ime>Lipov med</ime>
+	</strana>
+	<strana>
+		<srcc>suncokret.html</srcc>
+		<ime>Suncokretov med</ime>
+	</strana>
+	<strana>
+		<srcc>livada.html</srcc>
+		<ime>Livadski med</ime>
+	</strana>
+	<strana>
+		<srcc>ostali.html</srcc>
+		<ime>Ostali proizvodi</ime>
+	</strana>
+	<strana>
+		<srcc>galerija.html</srcc>
+		<ime>Galerija</ime>
+	</strana>
+	<strana>
+		<srcc>kontakt.html</srcc>
+		<ime>Kontakt</ime>
+	</strana>
+	<strana>
+		<srcc>autor.html</srcc>
+		<ime>O autoru</ime>
+	</strana>
+	<strana>
+		<srcc>registracija.html</srcc>
+		<ime>Prijavi se</ime>
+	</strana>
+</strane>

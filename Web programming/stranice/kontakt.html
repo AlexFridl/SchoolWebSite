@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Pčelarsko gazdinstvo Fridl</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="Keywords" content="pčelarstvo, domaćinstvo, pčelinjak, Fridl, košnice"/>
+		<meta name="Description" content="Porodično domaćinstvo Fridl čini pčelinjak od ukupno sedamdeset košnica. Pčelinjak se nalazi na teritoriji opštine Lazarevac."/>
+		<link rel="shortcut icon" href="../slike/logo1.png" type="image/x-icon"/>
+		<script type="text/javascript" src="../JavaScript/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="../JavaScript/dzej.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/stil.css"/>
+	</head>
+
+	<body onLoad="slajder()">
+		<div id="sajt">
+		
+			<div id="omot">
+			
+				<div id="header">
+					<h1>Pčelarsko gazdinstvo Fridl</h1>
+					<div id="pretraga">
+						<input type="text" placeholder="Pretraga..." maxlength="45" id="tbPoljeUnos" name="tbPoljeUnos" size="15"/>
+						<input type="button" name="btPretraga" id="btPretraga" value="Pretraga" onClick="pretraga1()";/>
+					</div>	
+					<div id="slikaHeader">
+						<img class="slajder" name="slajder" src="../slike/slajder/3-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/8-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/7-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/10-1.jpg" alt="PčelinjakFridl"/>
+						<img src="../slike/slajder/9-1.jpg" alt="PčelinjakFridl"/>
+						
+					</div>
+					
+				</div>
+				<div id="meni">					
+					<div id="navigacija">
+						<ul>
+							<li><a href="../index.html">POČETNA</a></li>
+							<li><a href="#" onmouseover="otvori('pro');" onmouseout="vremeTrajanja();">PROIZVODI</a>
+								<div id="pro" onmouseover="vremePokazivanja();" onmouseout="vremeTrajanja();">
+									<a href="../stranice/bagrem.html">BAGREMOV MED</a>
+									<a href="../stranice/lipa.html">LIPOV MED</a>
+									<a href="../stranice/suncokret.html">SUNCOKRETOV MED</a>
+									<a href="../stranice/livada.html">LIVADSKI MED</a>									
+									<a href="../stranice/ostali.html">OSTALI PROIZVODI</a>
+									
+								</div>
+							</li>
+							<li><a href="../stranice/galerija.html">GALERIJA</a></li>
+							<li><a href="../stranice/kontakt.html">KONTAKT</a></li>
+							<li><a href="../stranice/autor.html">O AUTORU</a></li>	
+							<li id="prijaviSe"><a href="#"><b>PRIJAVI SE</b></a>
+							<form class="forma">
+								<table>
+									<tr>
+										<td>Korisničko ime: </td>
+									</tr>
+									<tr>
+										<td><input type="text" id="tbKorisnickoIme" name="tbKorisnickoIme" maxlength="20"/></td>
+									</tr>
+									<tr>
+										<td>Lozinka:</td>	
+									</tr>
+									<tr>
+										<td><input type="password" id="tbLozinka" name="tbLozinka" maxlength="20"/></td>
+										
+									</tr>
+									<tr>
+										<td><input type="submit" id="btPrijava" value="Prijava"/>
+											<a href="../stranice/registracija.html"><input type="button" id="btRegistracija" value="Registracija"/></a></td>
+									</tr>
+								</table>
+							</form></li>
+						</ul>
+					</div>		
+				</div>
+			
+				<!--<div class="cisti"></div>-->
+				<div id="sredinaOmot">
+					<div id="pretragaRezultat"></div>
+						<div id="sredinaText">
+							<div class="sredinaNaslov">
+								<h2>KONTAKT</h2>
+							</div>
+							<div class="sredinaPrica4">									
+									<p><b>Fridl Ljudevit</br></br></br></b>
+									adresa: Dušan Petrović Šane 5/12</br>
+									mesto: Lazarevac</br>
+									email: fridl.ljudevit@gmail.com
+									</p>								
+							</div>
+							<div class="sredinaSlika4">
+								<img src="../slike/FridlLjudevit.jpg" alt="FridlLjudevit" align="center" title="FridlLjudevit"/>
+							</div>
+							<div id="anketa">
+							<h4 align="center"><u>ANKETA</u></h4>
+							<table cellspacing="10px" cellpadding="5px">
+								<tr>
+									<td>Ocena sajta</td>
+									<td>
+										<select class="opcije" name="ddlocena" id="ddlocena">
+											<option value="0" name="sajt" value="Unesite ocenu">Unesite ocenu</option>
+											<option value="1" name="sajt" value="Ocena 1">Ocena 1</option>
+											<option value="2" name="sajt" value="Ocena 2">Ocena 2</option>
+											<option value="3" name="sajt" value="Ocena 3">Ocena 3</option>
+											<option value="4" name="sajt" value="Ocena 4">Ocena 4</option>
+											<option value="5" name="sajt" value="Ocena 5">Ocena 5</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Ocena dizajna</td>
+									<td>
+										<select class="opcije" name="ddldizajn" id="ddldizajn" class="btn">
+											<option value="0" name="dizajn" value="Unesite ocenu">Unesite ocenu</option>
+											<option value="1" name="dizajn" value="Ocena 1">Ocena 1</option>
+											<option value="2" name="dizajn" value="Ocena 2">Ocena 2</option>
+											<option value="3" name="dizajn" value="Ocena 3">Ocena 3</option>
+											<option value="4" name="dizajn" value="Ocena 4">Ocena 4</option>
+											<option value="5" name="dizajn" value="Ocena 5">Ocena 5</option>										
+										</select>
+									</td>
+								</tr>
+								<tr class="tabela">
+									<td>Da li su informacije koje ste dobili korisne?</td>
+									<td>
+										<label for="da">&nbsp;DA&nbsp;&nbsp;</label><input type="radio" name="odgovor" id ="da"/>
+										<label for="ne">&nbsp;NE&nbsp;&nbsp;</label><input type="radio" name="odgovor" id ="ne"/>
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr align="center">
+									<td><input type="button" class="pretragadugme" name="btnsubmit" value="Pošalji" id="btnsubmit" onclick="kolacic();"/></td>
+									<td><input type="reset" class="pretragadugme" name="btnreset" value="Poništi" id="btnreset"/></td>
+								</tr>
+							</table>
+						</div>
+						</div>
+				</div>
+					
+				<div id="footer">
+					<div id="footerNavigacija">
+						<ul>
+							<li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+							<li><a href="sitemap.xml">Mapa sajta</a></li>						
+						</ul>					
+					</div>
+					<div id="rss">
+						<a href="rss.xml"><img src="../slike/rss.png" alt="iconRss"/></a>					
+					</div>
+					<div id="copyRight">
+						<p>Copyright&copy2016AleksandraFridl</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</body>
+</html>
