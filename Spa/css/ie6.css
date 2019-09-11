@@ -1,0 +1,55 @@
+/** Website template by freewebsitetemplates.com **/
+ 
+
+  #page #header ul.section{
+    height:0 auto;
+    overflow:hidden;	
+	list-style-type:none;
+	width:100px;
+	position:relative;
+	top:20px;
+  }   
+  
+  
+  
+   #page #header ul.navigation{
+    overflow:hidden;
+	height:0 auto;
+	float:right;
+	list-style-type:none;
+	margin-top:-50px;
+  }
+  
+  
+	#page #body #content ul.section li h2{
+	  padding:20px 10px 10px 10px;
+	  color:#694606;
+	  font-size:20px;
+	  height:85px;
+	  vertical-align:center;
+	}
+	
+	
+	#page #body .content ul li{
+	 
+	 margin:0 0 20px 0;
+	 padding:0;
+	 height:auto;
+	 overflow:visible;
+	 
+	}
+	
+	#page #body #content ul.section li{
+	  float:left;
+	  width:300px;
+	  height:105px;
+	  margin-bottom:5px;
+	  
+	}
+	
+	
+	
+	
+	 
+	
+	

@@ -1,0 +1,1003 @@
+ /** Website template by freewebsitetemplates.com **/
+ body { 
+            margin:0;
+			padding:0;
+			font-family: Arial, Verdana, Helvetica, sans-serif; 
+			font-size: 14px; 
+			line-height: 25px; 
+			/* color:#c2a8c3; */
+			background-color:#452c41;
+	  }	
+	
+	@font-face {
+	font-family: 'Conv_Amperzand';
+	src: url('../fonts/Amperzand.eot');
+	src: local('?'), url('../fonts/Amperzand.woff') format('woff'), url('../fonts/Amperzand.ttf') format('truetype'), url('../fonts/Amperzand.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+	
+  #page{
+    width:960px;
+    margin:0 auto;
+	color: #c2a8c3;
+  }
+  
+  #page #header{
+    height:80px; 
+	width:960px;
+	overflow:hidden;
+  }
+  
+/***************Start of header section *********************/
+  
+  
+  #page #header ul.section{
+  height:0 auto;
+  overflow:hidden;	
+	list-style-type:none;
+	width:100px;
+  }   
+  
+  #page #header ul.section li{
+    float:left; 
+  }   
+  
+  #page #header ul.section li a{
+     text-decoration:none;
+	 margin:10px 5px 0 0;
+  }  
+ 
+  #page #header ul.section li a.email{
+  background: url("../images/icon.gif"); 
+	background-position: 0 -508px;
+	display:block;
+	width:31px;
+	height:21px;
+  }
+  
+  #page #header ul.section li a.email:hover{
+    background: url("../images/icon.gif"); 
+	background-position: 0 -437px;
+	background-repeat:no-repeat; 
+  }
+
+  #page #header ul.section li a.home{
+	background: url("../images/icon.gif"); 
+	background-position: 0 -278px; width: 23px; height: 21px;
+	display:block;
+	width:30px;
+	height:21px;
+  }
+  
+  #page #header ul.section li a.home:hover{
+	background: url("../images/icon.gif"); 
+	background-position: 0 -207px; 
+	
+  }
+  
+/***************End of header section *********************/  
+
+/***************Start of header navigation *********************/  
+  
+  #page #header ul.navigation{
+    overflow:hidden;
+	height:0 auto;
+	float:right;
+	list-style-type:none;
+	margin-top:-60px;
+  }
+  
+  #page #header ul.navigation li{
+     float:left;
+	 padding:0 10px;
+	 height:80px;
+	 line-height:80px;
+  }
+  
+  #page #header ul.navigation li a{
+     text-decoration:none;
+	 color:#c2a8c3;
+	 font-size:18px;
+  }
+  
+  #page #header ul.navigation li a:hover{
+   text-decoration:underline;
+   color:#fff7ff;
+  
+  }
+  
+  #page #header ul.navigation li a.active{
+   text-decoration:underline;
+   color:#fff7ff;
+  
+  }
+/***************End of header navigation *********************/  		
+
+/***************Start of Body Style *********************/  
+
+    #page #body{
+    
+	background: url("../images/bg-page.jpg"); 
+	background-position: center top; 
+	background-repeat:no-repeat; 
+	background-color:#dee6e8;
+    width:960px;
+	padding-top:140px;
+	/* height:auto; */
+	overflow:hidden;	
+	
+   }
+
+   #page #body a#logo{
+     position:relative;
+	 top:-75px;
+	 left:635px;
+	 text-decoration:none;
+   }
+   
+   #page #body a#logo img{
+     border:0;
+   }
+   
+    #page #body #content{
+	  width:940px;
+      padding: 0 10px; 	  
+	 /*  height:470px; */ 
+	  color:black;
+	}
+	
+/***********Start of Service**********************/
+	#page #body #content h3{
+	  background: url("../images/bg-heading.gif"); 
+	  background-position: center; 
+	  background-repeat:no-repeat; 
+	  width:428px;
+	  height:79px;
+	  margin:0 auto;
+	  line-height:60px;
+	  text-align:center;
+	
+	  font-size:50px;
+	  font-family: 'Conv_Amperzand',Arial;
+	  font-weight:normal;
+	}
+	
+	#page #body #content ul.section{
+      margin:45px 0 0 30px;
+	  padding:0;
+	  list-style-type:none;
+	  overflow:hidden;
+	}	
+	
+	#page #body #content ul.section li{
+	  float:left;
+	  width:300px;
+	  height:105px;
+	  margin-bottom:35px;	  
+	}
+	
+	#page #body #content ul.section li h2{
+	  padding:10px 10px 10px 10px;
+	  color:#694606;
+	  font-size:20px;
+	  height:95px;
+	  vertical-align:center;
+	}
+	
+	#page #body #content ul.section li h2 a{
+	  margin:20px 0 0 0;
+	  padding:0 10px 0 0;
+	  color:#694606;
+	  font-size:20px;
+	  height:105px;
+	  vertical-align:center;
+	  text-decoration:none;
+	}
+	
+	#page #body #content ul.section li h2 a:hover{
+	  color:#5C1E69;
+	}
+	
+	
+	#page #body #content ul.section li img{
+	  border:none;
+	  float:left;
+	  margin-right:10px;
+	  background: url("../images/bg-home-thumbnail.gif");
+	  background-repeat:no-repeat;
+	  padding:4px 4px 4px 5px;
+	  
+	}	
+
+	#page #body #content ul.navigation{
+	  list-style-type:disc;
+	  margin:0 auto;
+	  overflow:hidden;
+	  width:250px;
+	  height:31px;
+	  background: url("../images/services-menu-bar.gif");
+	  background-repeat:no-repeat;	
+	  border-radius:5px;
+	}	
+	
+	#page #body #content ul.navigation li{
+	  list-style-type:none;
+	  float:left;
+	  margin:0 20px;
+	  line-height:31px;
+	}
+	
+	#page #body #content ul.navigation li.first{	  
+	  list-style-type:none;
+	}
+	
+	#page #body #content ul.navigation li a{
+	  text-decoration:none;
+	  color:#ffe6d5;
+           padding-left: 50px;
+	}
+	
+	#page #body #content ul.navigation li a:hover{
+	  text-decoration:none;
+	  color:#ceb388;
+	}
+	#page #body #content ul.navigation li span{
+	  color:#ceb388;
+	}
+/***********End of Service**********************/
+	 
+/***************End of Body Style *********************/  
+		
+/***************Start of Featured Style *********************/  
+	
+	#page #body #featured {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-top: thin solid #afb3b6;
+    border-width: thin 0 1px;
+    height: 199px;
+    overflow: hidden;
+    width: 960px;
+}
+	
+	#page #body #featured ul {
+    background-color: #DEE6E8;
+    height: 199px;
+    list-style-type: none;
+    margin: 1px 0;
+    overflow: hidden;
+    padding: 0;
+}
+	
+	#page #body #featured ul li{
+	   margin:0;
+	   padding:0;
+	   float:left;
+	   width:220px;
+	   padding: 0 10px;
+	   text-align:center;
+	   overflow:hidden;
+	}
+	
+	#page #body #featured ul li a{
+	  text-decoration:none;
+	}
+	
+	#page #body #featured ul li a img{
+	  border-color:#ffffff;
+	  border-width:2px;
+	  margin-top:10px;
+	}
+	
+	#page #body #featured ul li h2{
+	  margin:10px 0 0 0;
+	  color:#5c1e69;
+	  font-size:20px;
+	}
+	
+	#page #body #featured ul li h2 a{
+	  margin:10px 0 0 0;
+	  color:#5c1e69;
+	  font-size:20px;
+	}
+	#page #body #featured ul li h2 a:hover{
+	  margin:10px 0 0 0;
+	  color:#fff;
+	  font-size:20px;
+	}
+	
+	#page #body #featured ul li span{
+	  margin:0;
+	  color:#5c1e69;
+	}
+	
+/***************End of Featured Style *********************/  	
+	
+	
+
+/***********Start of Cenovnik style**********************/
+	
+	#page #body .content {	 
+	  background: url("../images/bg-content-top.jpg");
+	  background-repeat:no-repeat;
+	  background-position:-top center;	  
+	  background-color:#dee6e8;
+	  color:#630C6f;
+	  /* height:800px; */
+	  padding: 20px 10px 0px 10px;
+      width: 940px;	
+	  border-style: solid;
+	  border-bottom: thin solid #FFFFFF;
+	  border-width: thin 0 1px;
+	  border-top:none;	  
+	}
+	
+	#page #body .content h3{
+	  width:940px;
+	  height:79px;
+	  margin:0 auto;
+	  line-height:70px;
+	  text-align:center;
+	  font-family:Arial;
+	  font-size:50px;
+	  color:#630c6f;
+	  font-family: 'Conv_Amperzand';
+	  font-weight:normal;
+	}
+	
+	#page #body .content ul.section{
+	  margin:45px 0 0 0;
+	  padding:0;
+	  list-style-type:none;
+	  overflow:hidden;
+	  width:940px;
+	  
+	}	
+	
+	#page #body .content ul.section li{	  
+	  float:left;
+	  width:300px;
+	  height:235px;
+	  margin-bottom:35px;
+	  padding:0 10px 0 0;
+	 
+	}
+	
+	#page #body .content ul.section li h2{
+	  margin:20px 0 0 0;
+	  padding:0 10px;
+	  color:#694606;
+	  font-size:20px;
+	  height:90px;
+	  vertical-align:center;
+	  
+	  
+	}
+	
+	#page #body .content ul.section li h2 a{
+	  margin:20px 0 0 0;
+	  padding:0 10px 0 0;
+	  color:#630c6f;
+	  font-size:20px;
+	  height:105px;
+	  vertical-align:center;
+	  text-decoration:none;
+	  
+	}
+	
+	#page #body .content ul.section li h2 a:hover{
+	 color:#676F71;
+	}
+	
+	#page #body .content ul.section li img{
+	  border:none;
+	  float:left;
+	  background: url("../images/bg-home-thumbnail.gif");
+	  background-repeat:no-repeat;
+	  padding:4px 4px 4px 5px;
+	  margin:0 10px 0 0;
+	  
+	}
+	
+	#page #body .content ul.section li p{
+	  padding:0 10px 0 0;
+	  margin:0;
+	  color:#676f71;
+	  
+	}
+	
+	#page #body .content ul.section li p a{
+	  color:#676f71;
+	}	
+	
+	#page #body .content ul.section li p a:hover{
+	  color:#630C6F;
+	}	
+	#page #body .content .paginacija{
+	padding-left: 450px;
+    font-size: 18px;
+	  color:#630C6F;
+	}
+/***********End of Cenovnik style**********************/	
+	
+
+/***********Start of Autor**********************/	
+   #page #body .content ul{
+    list-style-type:none; 
+	  overflow:hidden;
+	  width:940px;
+	  /* height:650px; */
+	  margin:0;
+	  padding:0;
+   }
+   
+    #page #body .content ul li{
+	 clear:none;
+	 overflow:hidden;
+	 margin:0 0 20px 0;
+	 padding:0;
+	}	
+	
+	#page #body .content ul li img{
+	float:right;
+	 margin-left:10px;
+	 border:0;
+	 border-radius:5px;
+    }
+	#page #body .content .naslov{
+	color:#630C6F;
+	}
+	#page #body .content .levo .naslov{
+    color: #630C6F;
+    font-size: 20px;
+    text-decoration: none;
+	}
+	
+	#page #body .content ul li p{
+	 color:#707070;
+	 width:auto;
+	 font-family:Arial;
+	 font-size:15px;
+	 margin-bottom:0; 
+	}
+	
+	#page #body .content ul li p a{
+	 color:#676F71;
+	}
+	
+	/*#page #body .content ul li p a:hover{
+    color:#630C6F;
+	}*/
+	
+	/*#page #body .content ul li p span{
+	display:block;
+	}*/
+	#page #body .levo{
+	width:350px;
+	height:130px;
+	float:left;
+	}
+	
+	#page #body .content #anketa .levo{
+	border:1px solid #630C6F;
+	border-radius:5px;
+	width:400px;
+	height:150px;
+	margin-left:10px;
+	float:left;
+	}
+	#page #body .content #anketa .desno{
+	/* border:1px solid #630C6F;
+	border-radius:5px; */
+	width:400px;
+	height:150px;
+	margin-right:10px;
+	float:right;
+	}
+	
+	#page #body .conten #anketa{
+		background-color:#dee6e8;
+	}
+	
+	#page #body .content #anketa .levo .naslov {
+	color:#630C6F;
+	padding-left:50px;
+	}
+	#page #body .content #anketa .desno .naslov {
+	color:#630C6F;
+	padding-left:50px;
+	}
+	#page #body .content #anketa .levo .anketa tbody tr th{
+	color:#630C6F;
+	font-size:15px; 
+	}
+	#page #body .content #anketa .desno .anketa tbody tr th{
+	color:#630C6F;
+	font-size:15px;
+	}
+	
+	#page #body .content #anketa .levo .anketa tbody tr td{
+	color:#630C6F;
+	}
+	#page #body .content #anketa .desno .anketa tbody tr td{
+	color:#630C6F;
+	}
+	#page #body .content #anketa .levo .anketa tbody tr td #btnGlasaj{
+	margin-left:160px;
+	color:#630C6F;
+	}
+	
+	
+/***********End of Autor**********************/		
+	
+
+/***********Start Zakazi style***********************/	
+    #page #body .content table.section{
+	   width:940px;
+	   margin-bottom:50px;
+	}
+    
+/*	#page #body .content table.section tr{	
+	}*/
+	
+	#page #body .content table.section td{
+	  width:470px;
+	}
+	
+	#page #body .content table.section td.even{
+	  text-align:right;
+	  padding-right:10px;
+	  width:60px;
+	  
+	}
+	
+	#page #body .content table.section td select{
+	  background: url("../images/input2.gif"); 
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  width:360px;
+	  border:0;
+	  padding:12px 15px 12px 5px;
+	  overflow:hidden;
+	  -webkit-appeareance: none;
+	   text-overflow: ellipsis;
+	   color: #676F71;
+	   text-align:center;
+	   font-size:14px;
+	}	
+	
+	#page #body .content table.section td input{
+	/*   background: url("../images/input.gif");  */
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  width:450px;
+	  border:0;
+	  padding:12px;
+	  color: #676F71;
+	  font-size:14px;
+	}
+	
+	#page #body .content table.section td #btnZakazi{
+	  /*background: url("../images/input.gif");*/
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  width:360px;
+	  height:42px;
+	  border:0;
+	  margin-top:30px;
+	  color:#630C6F;
+	  font-weight:bold;
+	  font-size:20px;
+	  background-color:#C1CDCD;
+	  border:1px solid white;
+	  border-radius:3px;
+
+	}
+	#page #body .content table #btnZakazi{
+	  padding-bottom:35px;
+	}
+	
+	#page #body .content table.section td.even span{
+		color: #630C6F;
+		font-weight:bold;
+		float:left;
+		padding-left:90px;		
+	}	
+	
+	#page #body .content table.section td span{
+		color: #630C6F;
+		font-weight:bold;
+		font-size:20px;
+	}
+	
+	#page #body .content p {
+    color: #676F71;
+    margin: 0;
+    padding: 0 10px 0 0;
+	font-size:15px;
+    }
+	
+	#page #body .content p a{
+	 color: #676F71;
+	}
+	
+	#page #body .content p a:hover{
+	 color: #630C6F;
+	}
+	
+/***********End of Zakazi style**********************/	
+/***********Start of Logovanje**********************/	
+
+#page #body .content #registracija{
+	margin-bottom:55px;
+	
+}
+#page #body .content #registracija form{
+	border:1px solid #630C6F;
+	border-radius:3px;
+	width:400px;
+	color:#630C6F;
+	margin-left:300px;
+	padding-left:25px;
+	padding-top:15px;
+	padding-bottom:15px;
+
+}
+#page #body .content #logovanje form{
+	border:1px solid #630C6F;
+	border-radius:3px;
+	width:400px;
+	color:#630C6F;
+	margin-left:300px;
+	padding-left:25px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+#page #body .content #registracija .logNaslov{
+	color:#630C6F;
+	margin-left:420px;
+	margin-bottom:15px;
+}
+#page #body .content #logovanje .logNaslov{
+	color:#630C6F;
+	margin-left:420px;
+	margin-bottom:15px;
+	margin-top:70px;
+}
+#page #body .content #registracija form table tbody tr td #btnPotvrdi{
+	margin-top:15px;
+	color:#630C6F;
+}
+#page #body .content #logovanje form table tbody tr td #btnUlogujSe{
+	margin-top:15px;
+	color:#630C6F;
+}
+#page #body .content #ispis {
+	color:#630C6F;
+}
+/***********End of Galerija**********************/	 
+
+/***************Start of Footer Style *********************/  
+
+    #page #footer{
+	background: url("../images/bg-page-bottom-curve.gif"); 
+	background-position: center bottom;
+	background-repeat:no-repeat;
+    width:960px;
+	height:215px;
+	background-color:#ffffff;
+	color:#7c5013;
+	
+	
+	background-color: #FFFFFF;
+    border-style: solid;
+    border-top: thin solid #afb3b6;
+    border-width: thin 0 1px;
+	border-bottom:none;
+   }
+     
+   
+   #page #footer ul {
+      overflow:hidden;
+	  list-style-type:none;
+	  margin:0 15px;
+	  padding:0;
+	  width:930px;
+	  height:215px;
+   }
+   
+   #page #footer ul li{
+     float:left;
+	 overflow:hidden;
+	 margin:0;
+	 padding:0;
+   }
+   
+   #page #footer ul li#section{
+     width:570px;
+	 margin:0;
+	 padding:0;
+	 overflow:hidden;
+	 height:215px;
+   }
+   
+   #page #footer ul li#section h2{
+      margin:20px 0 10px 0;
+	  font-size:14px;
+   }
+   
+   #page #footer ul li#section ul{
+     overflow:hidden;
+	  width:570px;
+	  height:auto;
+	  margin:0;
+	  padding:0;
+   }
+   
+   #page #footer ul li#section ul li{
+     width:570px;
+	 margin:0;
+	 padding:0;
+	 height:35px;
+	 line-height:35px;
+   }
+   
+   #page #footer ul li#section ul li p{
+     width:auto;
+	 overflow:hidden;
+	 float:left;
+	 height:35px;
+	 line-height:35px;
+	 margin:0;
+	 padding:0;
+   }
+   
+   #page #footer ul li#section ul li span{
+     float:left; 
+	 margin-left:10px;
+	 font-style:Italic;
+   }
+   
+   
+   #page #footer ul li.connect{
+     width:130px;
+	 height:215px;
+	 overflow:hidden;
+   }
+   
+   #page #footer ul li.connect h2{
+    margin:20px 0 10px 0;
+	font-size:14px;
+   }
+	#page #footer ul li.connect ul{
+	  margin:0;
+	 padding:0;
+	}
+  
+   #page #footer ul li.connect ul li{
+     width:130px;
+	 clear:both;
+	 
+	 height:35px;
+	 line-height:35px;
+   }
+   
+   #page #footer ul li.connect ul li a{
+     font-size:13px;
+   }
+   #page #footer ul li.connect ul li a:hover{
+	 opacity:0.7;
+	 filter:alpha(opacity=70); 
+   }
+   
+   #page #footer ul li.connect ul li a.facebook{
+     background: url("../images/icon.gif");
+	background-position: 0 -65px; 
+	
+	background-repeat:no-repeat;
+	display:block;
+	text-decoration:none;
+	padding-left:40px;
+	color:#7c5013;
+   }
+   
+   #page #footer ul li.connect ul li a.twitter{
+    background: url("../images/icon.gif");
+	 background-position: 0 -646px;
+	background-repeat:no-repeat;
+	display:block;
+	text-decoration:none;
+	padding-left:40px;
+	color:#7c5013;
+   }
+   
+   #page #footer ul li.connect ul li a.youtube{
+     background: url("../images/icon.gif");
+	 background-position: 0 -714px;
+	 background-repeat:no-repeat;
+	 display:block;
+	 text-decoration:none;
+	 padding-left:40px;
+	 color:#7c5013;
+   }
+   
+   #page #footer ul li.connect ul li a.flicker{
+     background: url("../images/icon.gif");
+	 background-position: 0 -130px;
+	 background-repeat:no-repeat;
+	 display:block;
+	 text-decoration:none;
+	 padding-left:40px;
+	 color:#7c5013;
+   }
+   
+   #page #footer ul li.section{
+     width:230px;
+	 height:215px;
+	 margin:0;
+	 padding:0;
+	 overflow:hidden;
+   }   
+   
+   #page #footer ul li.section h2{
+     margin:20px 0 10px 0;
+	 font-size:14px;
+   }
+   
+   #page #footer ul li.section ul {
+     width:230px;
+	 height:140px;
+	 margin:0;
+   
+   }
+   
+   #page #footer ul li.section ul li{
+     width:190px;
+	 margin:0 0 10px 0;
+	 padding:0;
+	 clear:both;
+	 height:35px;
+	 overflow:hidden;	 
+   }	
+   #page #footer ul li.section ul li p{
+    height:35px;
+	line-height:35px;
+	margin:0;
+   }   
+    #page #footer ul li.section ul li.email{
+	 background: url("../images/icon.gif");
+	 background-position: 0 7px;
+	 background-repeat:no-repeat;
+	 display:block;
+	 text-decoration:none;
+	 padding-left:40px;
+	 color:#7c5013;
+	}
+	#page #footer ul li.section ul li.phone{
+	 background: url("../images/icon.gif");
+	 background-position: 0 -575px;
+	 background-repeat:no-repeat;
+	 display:block;
+	 text-decoration:none;
+	 padding-left:40px;
+	 color:#7c5013;
+	}
+	#page #footer ul li.section ul li.location{
+	 background: url("../images/icon.gif");
+	 background-position: 0 -347px;
+	 background-repeat:no-repeat;
+	 display:block;
+	 text-decoration:none;
+	 padding-left:40px;
+	 color:#7c5013;
+	 height:40px;
+	}
+	#page #footer ul li.section ul li.location p{
+	 line-height:20px;
+	 width: 190px;
+	 vertical-align:text-top;
+	}
+ 
+/***************End of Footer Style *********************/
+
+  #page #footnote{
+     width:960px;
+     margin:0 auto;	 
+	 height:100px;
+	 line-height:100px;
+	 text-align:center;
+	 color:#796075;
+	 }
+/***********pregled_zakazanih****************/
+
+#page #body #content .ispis .linkP{
+	margin-left: 795px;
+}
+
+/************************  ADMIN ************************/
+/**********************admin_spaIndex*************************/
+#page #body #content .spaIndex{
+	/* border:3px solid #630C6F; */
+	border-radius:5px;					
+/* 	margin-left:210px; */
+}
+#page #body .content .link{
+	margin-left:580px;
+	color:#630C6F;
+	font-size:15px;
+}
+/**************************spaIndex_dodaj********************************/
+#page #body #content table #btnPotvrdi{
+    color: #630C6F;
+}
+#page #body .content table tr td{
+	color: #630C6F;
+}
+#page #body .content table #fSlika{
+    color: #630C6F;
+}
+#page #body .content .dodaj{
+	margin-top:100px;
+	margin-left:305px;	
+	border:3px solid #630C6F; 
+	border-radius:5px;	
+		width:400px;
+	height:100px;
+	padding:15px 0 10px 50px;
+}
+#page #body .content .izmeni{
+	margin-top:50px;
+	margin-left:305px;	
+	border:3px solid #630C6F; 
+	border-radius:5px;	
+	width:400px;
+/* 	height:100px; */
+	padding:15px 0 10px 50px;
+}
+/****************admin_cene************/
+#page #body .content .linkC{
+	margin-left:870px;
+	color:#630C6F;
+	font-size:15px;
+}
+/**********admin_anketa**********/
+#page #body .content .ispisAnketa{
+	margin: 15px 50px 50px 330px;
+}
+#page #body .content .ispisKorisnici{
+	margin: 55px 25px 50px 100px;
+}
+#page #body .content .ispisTermina{
+	margin: 55px 25px 50px 60px;
+}
+#page #body .content .ispisTermina .linkP{
+	margin: 55px 25px 50px 750px;	
+}
+ #page #body .content form .section{
+	border: 2px solid #630C6F;
+    border-radius: 5px;
+	margin-top:10px;
+	padding-top:10px;
+	padding-left:30px;
+ } 
+ #page #body .content form .section #tbImePrezimeK{
+	margin-left: 50px;
+    border-radius: 5px; 
+ }
+  #page #body .content form .section #tbEmail{
+	margin-left: 85px;
+    border-radius: 5px; 
+ }
+ #page #body .content form .section #tbPoruka{
+	margin-left: 58px;
+	border-radius: 5px; 
+ }
+ #page #body .content form .section #btnPosalji{
+	margin-right: 250px;
+	background-color:#C1CDCD;
+	border: 1px solid white;	
+ }
+ #page #body .content .anketaAdmin{
+	 margin-left:250px;
+ }

@@ -1,0 +1,56 @@
+
+	#page #body .content table.section td select{
+	  background-image: url("../images/input2.gif"); 
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  width:360px;
+	  border:0;
+	  padding:22px 15px 22px 5px;
+	
+	  overflow:hidden;
+	  -webkit-appearance: none;
+	   color: #676F71;
+	   text-align:center;
+	   font-size:14px;
+	  
+	   
+	}
+	
+	#page #body .content table.section td #datetime{
+	  background-image: url("../images/input2.gif"); 
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  width:360px;
+	  border:0;
+	  padding:22px 15px 22px 5px;
+	
+	  overflow:hidden;
+	  -webkit-appearance: none;
+	   color: #676F71;
+	   text-align:center;
+	   font-size:14px;
+	  
+	   
+	}
+	
+	#page #body .content table.section td input{
+	  background: url("../images/input.gif"); 
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  width:450px;
+	  border:0;
+	  padding:20px 5px;
+	  color: #676F71;
+	  font-size:14px;
+	}
+	
+	
+	#page #body .content table.section td button{
+	  background: url("../images/button-submit.gif"); 
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  width:151px;
+	  height:42px;
+	  border:0;
+	  margin-top:30px;
+	}
