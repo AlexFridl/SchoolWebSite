@@ -1,0 +1,244 @@
+@media screen and (max-width: 1200px) {
+	#pagewrap{
+		width:95%;		
+	}
+	#content{
+		width:80%;
+		float:none;
+		margin:0px auto;
+	}
+	#footer{
+		width:30%;
+		float:none;
+	}
+	#gornjaNav ul{
+		/*width:87%;*/
+		text-align:center;
+	}
+	.galerija{
+		width:100%;
+		height:100%;
+	}
+}
+@media screen and (max-width: 800px) {
+	
+	
+	#gornjaNavigacija{
+		position:relative;
+	}
+	
+	#menu-icon{
+		color:#000;
+		width: 0px;
+        height: 30px;
+        background: #8e0ed2 url(../slike/menu-icon.png) no-repeat center ;
+		padding-left:110px;
+        cursor: pointer;
+        border-radius: 10px;
+        display: block;
+		margin-left:15px;
+		border:1px solid #8e0ed2;
+		border-radius:5px;
+	}
+	#menu-icon:hover{
+		background-color:#bb0ed1;
+		
+	}
+	#menu-icon.active{
+		background-color:#8e0ed2;
+		border:1px solid #8e0ed2;
+		border-radius:5px;
+	}
+	#gonjaNav{
+		clear:both;
+		position:absolute;
+		top: 38px;
+        width: 190px;
+        border-radius: 10px;
+        z-index: 10000;
+        padding: 5px;
+        background: #8e0ed2;
+        border: solid 1px #bb0ed1;
+        display: none;
+	}
+	#gornjaNav li{
+		clear:both;
+		float:none;
+		margin:5px 0 5px 10px;
+	}
+	#gonjaNav .active{
+		background:none;
+		color:#fff;
+	}
+	#gonjaNav a,
+	#gonjaNav ul a{
+		float:inherit;
+		background:none;
+		display:inline;
+		padding:0;
+		color:#666;
+		border:none;
+		margin:2px;
+	}
+	#gornjaNav a:hover, #gonjaNav ul a:hover{
+		background:#bb0ed1;
+		color:#000;
+		border-radius:5px;
+		padding:5px;
+		margin:2px;
+	}
+	#gornjaNav ul{
+		width:auto;
+		position:static;
+		display:block;
+		border:none;
+		background:inherit;
+	}
+	#gornjaNav ul li{
+		margin:3px 0 3px 15px;
+	}
+	
+	
+}
+@media screen and (max-width: 600px) {
+
+	header{
+		height:auto;
+	}
+	
+	#gornjaNavigacija{
+		position:relative;
+	}
+	
+	#menu-icon{
+		color:#000;
+		width: 0px;
+        height: 30px;
+        background: #8e0ed2 url(../slike/menu-icon.png) no-repeat center ;
+		padding-left:110px;
+        cursor: pointer;
+        border-radius: 10px;
+        display: block;
+		margin-left:15px;
+		border:1px solid #8e0ed2;
+		border-radius:5px;
+	}
+	#menu-icon:hover{
+		background-color:#bb0ed1;
+		
+	}
+	#menu-icon.active{
+		background-color:#8e0ed2;
+		border:1px solid #8e0ed2;
+		border-radius:5px;
+	}
+	#gonjaNav{
+		clear:both;
+		position:absolute;
+		top: 38px;
+        width: 190px;
+        border-radius: 10px;
+        z-index: 10000;
+        padding: 5px;
+        background: #8e0ed2;
+        border: solid 1px #bb0ed1;
+        display: none;
+	}
+	#gornjaNav li{
+		clear:both;
+		float:none;
+		margin:5px 0 5px 10px;
+	}
+	#gonjaNav .active{
+		background:none;
+		color:#fff;
+	}
+	#gonjaNav a,
+	#gonjaNav ul a{
+		float:inherit;
+		background:none;
+		display:inline;
+		padding:0;
+		color:#666;
+		border:none;
+		margin:2px;
+	}
+	#gornjaNav a:hover, #gonjaNav ul a:hover{
+		background:#bb0ed1;
+		color:#000;
+		border-radius:5px;
+		padding:5px;
+		margin:2px;
+	}
+	#gornjaNav ul{
+		width:auto;
+		position:static;
+		display:block;
+		border:none;
+		background:inherit;
+	}
+	#gornjaNav ul li{
+		margin:3px 0 3px 15px;
+	}
+	#content p{
+		width:90%;
+	}
+	
+	.donjaNavigacija{
+		width:100%;
+		margin:0;
+		float:none;
+	}
+	#copyRight{
+		float:none;
+		padding:15px 30px;
+	}
+	#ponuda{
+		line-height:22px;
+        margin-left:0em;
+        background:url(../slike/marker_3.png) 0 2px no-repeat;
+        padding-left:23px;
+        list-style: none;
+	}
+	#geolokacija canvas{
+        width: 100%;
+        height: 100%;
+    }
+    #map{
+        padding-right: 20px;
+    }
+	
+	#logo1 img{
+		padding-left:50px;
+	}
+}
+@media screen and (max-width: 400px) {
+
+	#pagewrap{
+		width:350px;
+	}
+	#logo1{
+		width:250px;
+	}
+	#logo1 img{
+		width:100%;
+		padding-left:0px;	}
+
+	#sliderS {
+		width:300px;
+	}
+    #gornjaNavigacija{
+		position:static;
+	}
+    	#content p{
+		width:80%;
+		margin:0px auto;
+	}
+	#map
+	{
+		width:50%;
+        padding-left: 100px;
+    }
+}
+
+}

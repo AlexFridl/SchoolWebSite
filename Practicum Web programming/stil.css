@@ -1,0 +1,169 @@
+
+body{
+	font-family: Cambria, Arial, Calibri,Californian FB;
+	background: url("../slike/swirl_pattern.png") repeat;
+}
+a{
+	text-decoration:none;
+}
+
+#pagewrap{	
+	width:900px;
+	margin:0 auto;
+	background:url("../slike/pink_rice.png") repeat;
+	background-color:white;
+	border-radius:10px;
+	/*padding-top:30px;*/	
+}
+header{
+	width:100%;
+	/*heig8ht:160px;*/
+	padding-bottom:15px;
+	display:table;	
+	font-weight:bold;
+}
+#logo1 img{
+	padding-top:10px;
+	/*border-radius:10px;*/
+	padding-left:150px;
+}
+.h1{
+	color:/*#A569BD*/#61167E;
+	float:left;
+	font-size:1.7em;
+	padding-left:15px;
+	padding-top:5px;
+}
+
+#content h2{
+	padding-left:15px;
+	font-weight:bold;
+	color:/*#A569BD*/#61167E;
+}
+#content p{
+	padding-left:15px;
+	padding-right:15px;
+}
+#content{
+	/*border-bottom:3px solid #A569BD;*/
+}
+
+#logo1 img {
+	text-indent:-9999px;
+	width: 350px;
+	border-radius:10px;
+    height:79px;
+}
+
+.linija{
+	color:#A569BD;
+	height:3px;
+	/*border-top:1px solid #A569BD;*/
+	}
+#gornjaNav ul{
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+
+#gornjaNav li{
+	list-style:none;
+	float:left;
+	padding-right:30px;
+	padding-left:50px;
+	border-radius:5px;
+	padding-top:20px;
+}
+#gornjaNav a{
+	display:block;
+}
+#gornjaNav ul a {
+    display: block;
+}
+#gornjaNav ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#gornjaNav li:hover > ul {
+    display: block;
+}
+p{
+	text-indent:25px;
+    text-align: justify;
+}
+#slider{
+	/*border:1px solid #A569BD;*/
+	max-width:900px;
+	/*border-radius:10px;*/
+}
+#sliderS{
+	padding-top:5px;
+	margin:0px auto;
+	padding-bottom:5px;
+	/*position: relative;*/
+	width:500px;
+  }
+#sliderS img{
+	border-radius:10px;	
+	display:none;
+	width:100%;
+}
+.slideShow{
+    display:block;
+}
+footer{
+	border-top:3px solid #A569BD;
+}
+#donjaNavigacija{
+	height:35px;
+}
+#donjaNav li{
+	display:inline;
+	padding-top:5px;
+}
+#copyRight{
+	/*height:5px;*/
+	float:right;
+	padding-top:15px;
+	padding-right:30px;
+	color:#61167E/*#A569BD*/;
+}
+#kontakt{
+	padding-top:50px;
+	padding-left:35px;
+	width:400px;
+	height:250px;
+}
+#map{
+	width:350px;
+	height:350px;
+	float:right;
+	margin-bottom:15px;
+	margin-right:25px;	
+	border-radius:5px;		
+}
+#icon{
+	border-radius:5px;
+}
+.celina{
+	font-weight:bold;
+	color:#61167E;
+}
+.podcelina{
+	font-weight:normal;
+	color:/*#A569BD*/#8031A1;
+}
+.cisti{
+	clear:both;
+}
+.galerija{
+	text-align:center;
+}
+.galerija img{
+	border: 1px solid #A569BD;
+    border-radius: 10px;
+}
+#ponuda{
+	padding-left:100px;
+}

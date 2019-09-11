@@ -1,0 +1,136 @@
+
+body{
+	font-family: Cambria, Arial, Calibri,Californian FB;
+	background: url("../slike/swirl_pattern.png") repeat;
+}
+a{
+	text-decoration:none;
+}
+
+#pagewrap{	
+	width:900px;
+	margin:0 auto;
+	background:url("../slike/pink_rice.png") repeat;
+	border-radius:10px;
+}
+header{
+	width:100%;
+	padding-bottom:15px;
+	display:table;	
+}
+#logo1 img{
+	padding-top:10px;
+	padding-left:150px;
+}
+.h1{
+	float:left;
+	font-size:1.7em;
+	padding-left:15px;
+	padding-top:5px;
+}
+#content h2{
+	padding-left:15px;
+}
+#content p{
+	padding-left:15px;
+	padding-right:15px;
+}
+#gornjaNav{
+	margin:0px auto;
+	width:auto;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-left:100px
+}
+#gornjaNav ul{
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+#gornjaNav li{
+	list-style:none;
+	float:left;
+	padding-right:30px;
+	padding-left:50px;
+	border-radius:5px;
+	padding-top:20px;
+}
+#gornjaNav a{
+	display:block;
+}
+#gornjaNav ul a {
+    display: block;
+}
+#gornjaNav ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#gornjaNav li:hover > ul {
+    display: block;
+}
+p{
+	text-indent:25px;
+    text-align: justify;
+}
+#sliderS{
+	padding-top:5px;
+	margin:0px auto;
+	padding-bottom:5px;
+	width:500px;
+  }
+#sliderS img{
+	border-radius:10px;	
+	display:none;
+	width:100%;
+}
+.slideShow{
+    display:block;
+}
+footer{
+}
+#donjaNavigacija{
+	height:35px;
+}
+#donjaNav li{
+	display:inline;
+	padding-top:5px;
+}
+#copyRight{
+	float:right;
+	padding-top:15px;
+	padding-right:30px;
+}
+#kontakt{
+	padding-top:50px;
+	padding-left:35px;
+	width:400px;
+	height:250px;
+}
+#map{
+	width:350px;
+	height:350px;
+	float:right;
+	margin-bottom:15px;
+	margin-right:25px;	
+	border-radius:5px;		
+}
+#icon{
+	border-radius:5px;
+}
+.celina{
+}
+.podcelina{
+}
+.cisti{
+	clear:both;
+}
+.galerija{
+	text-align:center;
+}
+.galerija img{
+    border-radius: 10px;
+}
+#ponuda{
+	padding-left:100px;
+}
