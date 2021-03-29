@@ -1,6 +1,5 @@
 @extends('layout.index')
 
-
 @section('title')
 
     @if(isset($news))
@@ -10,59 +9,81 @@
     @endif
 @endsection
 
-
 @section('content')
+    @isset($news)
+        @foreach($news as $n)
 
-    <div class="col-md-9">
-        @if(isset($news))
-            @foreach($news as $n)
-{{--        <div class="row carousel-holder">--}}
-{{--            <!--SLAJDER-->--}}
-{{--            <div class="col-md-12">--}}
-        <div class="row">
-
-                <div>
-                    <h2>{{$n->title_news}}</h2>
-                    <h6>{{$n->posted_date}}</h6>
-                    <img src="{{asset('/').$n->picture_path}}" class="img-fluid" style="weight:800px;height:300px;" alt="{{$n->title_news}}"/></br></br>
-
-
-{{--                    <img src="{{$author->image_path}}"  class="rounded float-left" alt="{{$author->first_last_name}}"/--}}
-                    <p>{{$n->subtitle}}</br>
-                    {{$n->text_news}}
-                    </p>
-                    <h5><b>Kategorija:</b> {{$n->name_category}}</h5>
+            <div class="col-md-9">
+                <div class="row">
+                        <div class="move_right">
+                            <h2>{{$n->title_news}}</h2>
+                            <h6>{{date("d.m.Y H:i:s",$n->posted_date)}}</h6>
+                            <img class="img-fluid" src="{{ asset('/'.$n->picture_path) }}" style="weight:800px;height:300px;" alt="{{$n->title_news}}"/></br></br>
+                            <p>{{$n->subtitle}}</br>
+                            {{$n->text_news}}
+                            </p>
+                            <h5><b>Kategorija:</b> {{$n->name_category}}</h5>
+                        </div>
                 </div>
-
-                <!--
-           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                      <ol class="carousel-indicators">
-                          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                      </ol>
-                      <div class="carousel-inner">
-                          <div class="item active">
-                              <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                          </div>
-                          <div class="item">
-                              <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                          </div>
-                          <div class="item">
-                              <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                          </div>
-                      </div>
-                      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                          <span class="glyphicon glyphicon-chevron-left"></span>
-                      </a>
-                      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                          <span class="glyphicon glyphicon-chevron-right"></span>
-                      </a>
-                  </div>
-              </div>-->
+                <div>
+                    @if(empty(!session()->has('poruka')))
+                        <div class="move_right">
+                            Korisnik:
+                            <u><h3 style="color: darkblue;">{{session()->get('user')->user_name}}</h3></u>
+                        {{session('poruka')}}
+                        </br>
+                        </div>
+                    @elseif(session()->has('user') && session()->get('user')->name_role == 'korisnik')
+                        <div class="move_right">
+                            <u><h4>Korisnik:</h4></u>
+                            <u><h3 style="color: darkblue;">{{session()->get('user')->user_name}}</h3></u>
+                        </div>
+                        <div id="ispis" class="move_right"></div>
+                        <h3 class="move_right" style="color: darkblue;">Ostavite komentar</h3>
+                    @else
+                        <h4 class="move_right" style="color: darkblue;">Ulogujte se da ostavite komentar!</h4>
+                        <hr>
+                    @endif
+                    @if(session()->has('user') && session()->get('user')->name_role == 'korisnik')
+                        <div class="comment-form-wrap pt-5 move_right">
+                            <form action="{{route('insert_comment')}}" method="post" name="commentform" class="p-5 bg-light">
+                                {{csrf_field()}}
+                                <input type="hidden" name="query" id="query" value="INSERT comment"/>
+                                <textarea name="comment" id="comment" cols='30' rows='10'class="form-control" placeholder="Komentar..."></textarea>
+                                <input type="hidden" name="news_id" id="news_id" value="{{$n->id_news}}">
+                                <input type="hidden" name="user_id" id="user_id" value="{{session()->get('user')->id_user}}">
+                                <br>
+                                <input type="button" value="Pošalji" name="btnOstaviKomentar" id="btnOstaviKomentar" class="btn btn-primary py-3 px-5">
+                            </form>
+                        </div>
+                        @if($errors->any())
+                            <div class="alert alert-danger move_right" style="margin-top: 10px;">
+                                <ul>
+                                @foreach($errors->all() as $error)
+                                    <li>{{$error}}</li>
+                                @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                    </div>
+                    @endif
+                <div class="comment-form-wrap pt-5">
+                    <div id="ispisKomentar">
+                        @isset($comment)
+                            <h3 class="move_right">Komentari:</h3>
+                            @foreach($comment as $c)
+                                <hr>
+                            <div class="move_right">
+                                <h4 style="color: darkblue;">Korisnicko ime:  {{$c->user_name}}</h4>
+                                {{$c->text_comment}}
+                                <hr>
+                            </div>
+                            @endforeach
+                        @endif
+                    </div>
+                </div>
             </div>
-            @endforeach
-            @endif
-    </div>
-            <!-- /.container -->
+        </div>
+        @endforeach
+    @endif
 @endsection

@@ -7,23 +7,44 @@
  */
 
 namespace App\Models;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Database\Eloquent\Model;
 
-class Kategorija extends Model
+class Kategorija
 {
-    public $id;
+    public $id_category;
+    public $name_category;
 
     public function getAll(){
-//        $rez = "SELECT * FROM kategorija";
-
-        $rez = DB::table('categories')
+        return $rez = DB::table('categories')
             ->select('*')
             ->get();
-        return $rez;
     }
 
 
+    public function insertCategory(){
+        return $rez = DB::table('categories')
+            ->insert([
+               'name_category'=>$this->name_category
+            ]);
+    }
+
+    public function getOne(){
+        return $rez = DB::table('categories')
+            ->select('*')
+            ->where('id_category',$this->id_category)
+            ->get();
+    }
+
+    public function update_category(){
+        return $rez = DB::table('categories')
+            ->where('id_category', $this->id_category)
+            ->update(['name_category'=>$this->name_category]);
+    }
+
+    public function delete_category(){
+        return $rez = DB::table('categories')
+            ->where('id_category',$this->id_category)
+            ->delete();
+    }
 }
 

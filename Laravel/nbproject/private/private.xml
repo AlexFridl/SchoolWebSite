@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/app/Http/Controllers/BackendController.php</file>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/resources/views/pages/adminCategory.blade.php</file>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/resources/views/pages/kontakt.blade.php</file>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/app/Http/Controllers/FrontendController.php</file>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/resources/views/components/head.blade.php</file>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/resources/views/pages/adminCategory_update.blade.php</file>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/app/Models/Kategorija.php</file>
+            <file>file:/C:/xampp/htdocs/php2Sajt2_8.03/routes/web.php</file>
+        </group>
+    </open-files>
+</project-private>

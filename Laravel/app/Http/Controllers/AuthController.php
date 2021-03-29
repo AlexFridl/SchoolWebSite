@@ -1,63 +1,99 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Http\Requests\RegRequest;
+
 use Illuminate\Http\Request;
 use App\Models\Korisnik;
+//use App\Http\Requests\RegisterRequest;
+use Illuminate\Validator;
+use App\Models\Activity;
+use App\Http\Requests\RegistracijaRequest;
 class AuthController extends FrontendController
 {
+    public $data = [];
 
-
-    public function registracija(){
+    public function registracija()
+    {
         return view('pages.registracija');
     }
-
-    public function logovanje(){
+    public function logovanje()
+    {
         return view('pages.logovanje');
     }
+    public function doLog(Request $request)
+    {
+        if ($request->has('btnLogovanje')) {
+            //dd($request);
+            $user_name = $request->input('korisnicko_ime');
+            $password = md5($request->input('lozinka'));
+            $query = $request->input('query');
 
-//
-//    /**
-//     * @param RegRequest $request
-//     * @return \Illuminate\Http\RedirectResponse
-//     */
-//    public function doReg(RegRequest $request){
-//        if($request->has('btnRegistracija')){
-//            $ime = $request->input('ime');
-//            $prezime = $request->input('prezime');
-//            $email = $request->input('email');
-//            $korisnicko_ime = $request->input('korisnicko_ime');
-//            $lozinka = $request->input('lozinka');
-//
-//            $korisnik = new Korisnik();
-//            dd($korisnik);
-//            $korisnik->ime = $ime;
-//            $korisnik->prezime = $prezime;
-//            $korisnik->email = $email;
-//            $korisnik->korisnicko_ime = $korisnicko_ime;
-//            $korisnik->lozinka = $lozinka;
-//            $korisnik->uloga_id = 2;
-//
-//
-//
-//            $rez = $korisnik->insertRegistracija();
-//            if($rez){
-//                return redirect()->route('loginForma')->with('poruka','Uspesno ste se registrovali');
-//            }
-//            else{
-//                return redirect()->route('regForma')->with('poruka','Niste ste se registrovali!');
-//            }
-//        }
-//    }
+            $korisnik = new Korisnik();
+            $korisnik->user_name = $user_name;
+            $korisnik->password = $password;
+            //dd($korisnik);
+            try{
+                $user = $korisnik->checkUser($user_name, $password);
+                //dd($user);
+                if ($user) {
+                    $request->session()->put('user', $user);
 
+                    $id_user = session()->get('user')->id_user;
 
+                    $activity = new Activity();
+                    $write = $activity->insertActivity($query,$id_user);
 
+                    return redirect()->route('adminCategory')->with('poruka', 'Uspesno logovanje!');
+                } else {
+                    return redirect()->route('loginForma')->with('poruka', 'Niste ulogovani!');
 
-//    public function doLogout(Request $request){
-//        if($request->session()->has('korisnik')){
-//            $request->session()->forget('korisnik');
-//            return redirect()->route('loginForma')->with('poruka','Uspesno ste se izlogovali!');
-//        }
-//        $request->session()->flash();
-//    }
+                }
+            }
+            catch
+            (\Exception $ex) {
+                \Log::error('MOJA GRESKA: ' . $ex->getMessage());
+            }
+        }
+    }
+    public function logout(Request $request)
+    {
+        $request->session()->forget('user');
+        $request->session()->flush('user');
+        return redirect('/');
+    }
+    public function doReg(RegistracijaRequest $request)
+    {
+        if ($request->has('btnRegistracija')) {
+
+            $first_name = $request->input('ime');
+            $last_name = $request->input('prezime');
+            $user_name = $request->input('korisnicko_ime');
+            $password = $request->input('lozinka');
+            $query = $request->input('query');
+            $user = NULL;
+
+            $korisnik = new Korisnik();
+
+            $korisnik->first_name = $first_name;
+            $korisnik->last_name = $last_name;
+            $korisnik->user_name = $user_name;
+            $korisnik->password = $password;
+            try {
+                $user = $korisnik->insertRegistracija();
+
+                if ($user) {
+                    $activity = new Activity();
+                    $write = $activity->insertActivityFront($query,$user);
+                    return redirect()->route('loginForma')->with('poruka', 'Uspesno ste se registrovali! Ulogujte se!');
+                } else {
+                    return redirect()->back()->with('poruka', 'Nije uspela registracija!');
+                }
+            } //
+            catch
+            (\Exception $ex) {
+                \Log::error('MOJA GRESKA: ' . $ex->getMessage());
+            }
+        }
+    }
 }
+
